@@ -1,0 +1,59 @@
+{ 
+    "include": [
+        "ts/**/*"
+, "target/css.d.ts"    ],
+
+    "compilerOptions": {
+
+        "outDir": "js",
+        "rootDir": "ts",
+        "baseUrl": "ts",
+        "paths": {
+            "*": [
+                "./*"
+            ]
+        },
+
+
+        "moduleResolution": "Node",
+        "lib": ["ESNext", "DOM"],
+
+        "allowJs": false,
+
+        "noErrorTruncation": false,
+        "downlevelIteration": true,
+        "skipLibCheck": true,
+
+        "noImplicitUseStrict": false,
+        "alwaysStrict": true,
+        "newLine": "lf",
+        "noEmitOnError": true,
+        "pretty": false,
+        "removeComments": false,
+        "sourceMap": false,
+        "declaration": false,
+        "emitBOM": false,
+        "module": "ESNext",
+        "target": "ESNext",
+        "allowSyntheticDefaultImports": true,
+
+        "importsNotUsedAsValues": "remove",
+        "forceConsistentCasingInFileNames": true,
+        
+        "strict": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noStrictGenericChecks": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noUncheckedIndexedAccess": true,
+    }
+}
